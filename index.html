@@ -1,8 +1,34 @@
 <html>
     <head>
-    
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");
+        </script>
     </head>
-    <body>
-        <script src="script.js"></script>
+    <body onload="populateQuotes()">
+        <div id="full-container">
+            <div id="header">
+                <p class="title">DOs and DONTs</p>
+                <p class="sub-title">for Professors</p>
+            </div>
+            <div id="content-container">
+                <div id="image">
+                    <img src="sleepingInLecture.jpg">
+                </div>
+                <div id="intro">
+                    OK so this goes out to all the professors that have such boring classes and are so in their own world when lecturing, that some students come in with their pillow and blanket and camp out! While it's hilarious, it's also an indicator for the current state of higher eduation. Below are some quick pointers for all you professors out there...
+                </div>
+                <div class="quote-container">
+                    <div class="quote-category">
+                    </div>
+                </div>
+                <div id="fdbk">
+                    If you have some thoughts that could make this better, <a href ="https://docs.google.com/forms/d/1KkqioMnqTD81uBT3uNXVNFpyERGXP0qaUYPg4IxXVLY/viewform" target ="_blank">give me some feedback!</a>
+                </div>
+                <div id="like-btn">
+                    If you liked this page, vote here: <span class="likebtn-wrapper" data-theme="greenred" data-identifier="like_btn" data-show_like_label="false"></span>
+                </div>
+            </div>
+        </div>    
     </body>
 </html>
