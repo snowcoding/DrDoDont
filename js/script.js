@@ -15,33 +15,33 @@ var q2 = {
 var q3 = {
     cat: "ppts",
     oyes: "make powerpoints, thats fine",
-    ono: "make the slides that have entire paragraphs of text on them or animations from the 90s. Nothing looses a student better than a slide with an essay on it. TL;DR fell asleep and now just wondering when is this lecture over?"
+    ono: "make the slides that have entire paragraphs of text on them or animations from the 90s. Nothing looses a student better than a slide with an essay on it. TL;DR fell asleep and now just wondering when will this lecture end?"
 };
 
 var q4 = {
     cat: "videos",
-    oyes: "make your lectures recorded and put them on some server for us to download. Your computer and whiteboard should be on the video if both are necessary. The ability for us to stop, replay speed up and/or slow down what you said is priceless. Not to mention that we all learn in different ways. See <a href='http://www.institute4learning.com/multiple_intelligences.php' target='_blank'>Gardner's Multiple Intelligence</a>",
-    ono: "expect us to has 100% attention in this ADD age. We may miss a word or a phrase, believe it or not, it’s human."
+    oyes: "record your lectures and put them on some server for us to download. Your computer and whiteboard should be on the video if both are necessary. The ability for us to stop, replay speed up and/or slow down what you said is priceless. Not to mention that we all learn in different ways. See <a href='http://www.institute4learning.com/multiple_intelligences.php' target='_blank'>Gardner's Multiple Intelligence</a>",
+    ono: "expect us to have 100% attention in this ADD age. We may miss a word or a phrase, believe it or not, it’s human."
 };
 
 var q5 = {
     cat: "tests",
-    oyes: "give us some practice questions/tests to help prepare for a test",
-    ono: "surprise everyone with questions the day of the exam with no preparation. Believe us, the only thing a class average of 52% does, is stroke your ego in some retarded way. It doesn’t actually help learning at all, which the last time we checked, was suppose to be one of your job descriptions bullets."
+    oyes: "give us some practice questions/tests to help prepare for a exam",
+    ono: "surprise everyone with questions the day of the exam with no preparation. Believe us, the only thing a class average of 52% does, is stroke your ego in some retarded way. It doesn’t actually help learning at all, which the last time we checked, was suppose to be a small part of your job."
 };
 
 var q6 = {
     cat: "help",
     oyes: "have some office hours, the ability to set appointments and help sessions. Weekends are cool too!",
-    ono: "make it so that you only offer one of the above. For some us, asking for help over email can be scary while coming to office hours isn't. For some it's vice versa. Some university emails systems suck balls!"
+    ono: "make it so that you only offer one of the above. For some us, asking for help over email can be scary while coming to office hours isn't. For some it's vice versa. Some university emails systems are totally unreliable!"
 };
 
     
 var quoteArr = [];
-quoteArr.push(q1, q2, q3, q4, q5);
+quoteArr.push(q1, q2, q3, q4, q5, q6);
 
 function populateQuotes() {
-    for (var i=0; i<quoteArr.length-1; i++){
+    for (var i=0; i<quoteArr.length; i++){
         //grab the div that hold the content
         var quoteContainer = document.getElementsByClassName("quote-container");
 
@@ -74,5 +74,4 @@ function populateQuotes() {
         quoteDontDiv.innerHTML = dontPrefix + quoteArr[i].ono;
         quoteDiv.appendChild(quoteDontDiv);
     }
-
 };
