@@ -18,7 +18,7 @@
 }
 
 #intro{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #image{
@@ -39,17 +39,20 @@
 }
 
 .quote-category{
-    margin-top: 30px;
-    font-size: 22px;
+    margin-top: 50px;
+    font-size: 28px;
+    font-style:italic;
 }
 
 .quote-do{
-    margin-left: 40px;
+    margin-top: 20px;
+    //margin-left: 40px;
     margin-bottom: 10px;
 }
 
 .quote-dont{
-    margin-left: 40px;
+    margin-top: 20px;
+    //margin-left: 40px;
 }
 
 .do{
@@ -63,11 +66,11 @@
 }
 
 #like-btn{
-    margin-top: 30px;    
+    margin-top: 50px;    
 }
 
 #fdbk{
-    margin-top: 30px;        
+    margin-top: 50px;        
 }
 
 #footer{
