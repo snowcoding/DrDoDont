@@ -2,7 +2,7 @@
 
 var q1 = {
     cat: "notes",
-    oyes: "make your lectures available on some digitial platform in some digital format. For example lecture 1 as a PDF or PPT on dropbox",
+    oyes: "make your lectures available on some digitial platform in some digital format. For example: lecture 1 as a PDF or PPT on dropbox",
     ono: "make us copy all your notes as quickly as possible during class as if it’s 1985. Writing really fast isn't a skill we need nowadays. I have an app that records everything for free. Shouldn’t I be paying attention to what you are saying, rather than trying to figure out what you wrote on that last slide?"
 };
 
